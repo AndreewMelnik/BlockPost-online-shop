@@ -50,11 +50,7 @@ export default {
   },
   methods: {
     handleScroll() {
-      if (window.pageYOffset > 50) {
-        this.isHeaderActive = true;
-      } else {
-        this.isHeaderActive = false;
-      }
+      this.isHeaderActive = window.scrollY > 50;
     },
   },
 };
@@ -94,7 +90,7 @@ header.fixed {
 .nav__list {
   list-style: none;
   margin: 0;
-  padding-left: 300px;
+  padding-left: 150px;
   display: flex;
   align-items: center;
 }
@@ -110,8 +106,8 @@ header.fixed {
 }
 
 .header__logo-img {
-  width: 172px;
-  height: 37px;
+  width: 170px;
+  height: 35px;
 }
 .cart-counter {
   font-size: 12px;
@@ -119,8 +115,7 @@ header.fixed {
 }
 .header__cart{
   display: flex;
-  align-items: end;
-  justify-content: end;
+  align-items: flex-end;
 }
 
 .header__cart-img{

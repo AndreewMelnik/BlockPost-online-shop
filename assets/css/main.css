@@ -1,3 +1,19 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: "PlayfairDisplay";
+    src: local("PlayfairDisplay"),
+    url(./assets/fonts/PlayfairDisplay-Regular.ttf) format("truetype");
+}
+/*@font-face {*/
+/*    font-family: "TimesNewRomanItalic";*/
+/*    src: local("TimesNewRomanItalic"),*/
+/*    url(./assets/fonts/TimesNewRoman-Italic.ttf) format("truetype");*/
+/*}*/
+/*@font-face {*/
+/*    font-family: "TimesNewRoman";*/
+/*    src: local("TimesNewRoman"),*/
+/*    url(./assets/fonts/TimesNewRoman.ttf) format("truetype");*/
+/*}*/
