@@ -74,8 +74,8 @@ export default {
 .sale__cards {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin-top:90px;
-  justify-items:center
+  margin-top: 90px;
+  justify-items: center
 
 }
 
