@@ -18,7 +18,7 @@
         <div class="sale__card-pic">
           <img class="sale__card-thumb" src="../../public/img/bg1.webp" alt="love-img"/>
           <div class="sale__card-container">
-            <p style="margin-top: 52px">
+            <p style="margin-top: 45px">
               <span>Бесплатная</span><br/>
               <span>ДОСТАВКА</span><br/>
               <span>ПО РОССИИ</span><br/>
@@ -31,7 +31,7 @@
         <div class="sale__card-pic">
           <div class="sale__card-thumb1"/>
           <div class="sale__card-container1">
-            <p style="margin-top: 52px">
+            <p style="margin-top: 45px">
               <span>Бесплатная</span><br/>
               <span>ДОСТАВКА</span><br/>
               <span>ПО РОССИИ</span><br/>
