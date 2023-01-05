@@ -93,6 +93,7 @@ header.fixed {
   padding-left: 150px;
   display: flex;
   align-items: center;
+  font-family: "PlayfairDisplay"
 }
 
 .nav__item {

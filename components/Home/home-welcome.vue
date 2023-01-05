@@ -17,9 +17,29 @@
       <div class="sale__cards">
         <div class="sale__card-pic">
           <img class="sale__card-thumb" src="../../public/img/bg1.webp" alt="love-img"/>
+          <div class="sale__card-container">
+            <p style="margin-top: 52px">
+              <span>Бесплатная</span><br/>
+              <span>ДОСТАВКА</span><br/>
+              <span>ПО РОССИИ</span><br/>
+            </p>
+            <p style="text-decoration:underline; font-size:18px; margin-top: 12px" >
+              <span>В магазин</span>
+            </p>
+          </div>
         </div>
         <div class="sale__card-pic">
-          <img class="sale__card-thumb" src="../../public/img/bg2.webp" alt="love-img"/>
+          <div class="sale__card-thumb1"/>
+          <div class="sale__card-container1">
+            <p style="margin-top: 52px">
+              <span>Бесплатная</span><br/>
+              <span>ДОСТАВКА</span><br/>
+              <span>ПО РОССИИ</span><br/>
+            </p>
+            <p style="text-decoration:underline; font-size:18px; margin-top: 12px" >
+              <span>В магазин</span>
+            </p>
+          </div>
         </div>
       </div>
     </div>
@@ -72,11 +92,15 @@ export default {
 }
 
 .sale__cards {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  margin-top: 90px;
-  justify-items: center
+  margin: 90px 0;
+  display: flex;
+  justify-content: center;
+  column-gap: 83px;
 
+}
+
+.sale__card-pic {
+  position: relative;
 }
 
 .sale__card-thumb {
@@ -85,4 +109,44 @@ export default {
   width: 470px;
   height: 380px;
 }
+
+.sale__card-thumb1 {
+  width: 470px;
+  height: 380px;
+  /*background-size: auto;*/
+  /*background-repeat: repeat;*/
+  /*background-position: center center;*/
+  background-image: url("../../public/img/bg2.webp");
+}
+
+.sale__card-container {
+  width: 267px;
+  height: 221px;
+  background-color: white;
+  position: absolute;
+  top: 21%;
+  left: 21.5%;
+}
+.sale__card-container p{
+  line-height:1.3em;
+  text-align:center;
+  font-size:25px;
+  font-family: "PlayfairDisplay"
+}
+
+.sale__card-container1 {
+  width: 267px;
+  height: 221px;
+  background-color: white;
+  position: absolute;
+  top: 21%;
+  left: 21.5%;
+}
+.sale__card-container1 p{
+  line-height:1.3em;
+  text-align:center;
+  font-size:25px;
+  font-family: "PlayfairDisplay"
+}
+
 </style>

@@ -1,11 +1,10 @@
 <template>
-<home-welcome/>
-  <home-posters/>
+
 </template>
 
 <script>
 export default {
-  name: "Main"
+  name: "home-posters"
 }
 </script>
 
