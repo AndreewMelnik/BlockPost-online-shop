@@ -7,7 +7,7 @@
         </div>
         <div class="tour__card-caption">
           <div class="tour__card-caption-text">
-            <h5>Новая коллекция</h5>
+            <h3>Новая коллекция</h3>
             <h1>ДЕКОР<br>
               ДЛЯ<br>
               ДУШИ</h1>
@@ -19,11 +19,11 @@
           <img class="sale__card-thumb" src="../../public/img/bg1.webp" alt="love-img"/>
           <div class="sale__card-container">
             <p style="margin-top: 45px">
-              <span>Бесплатная</span><br/>
-              <span>ДОСТАВКА</span><br/>
-              <span>ПО РОССИИ</span><br/>
+              <span>Бесплатная<br/>
+                    ДОСТАВКА<br/>
+                    ПО РОССИИ</span><br/>
             </p>
-            <p style="text-decoration:underline; font-size:18px; margin-top: 12px" >
+            <p style="text-decoration:underline; font-size:18px; margin-top: 12px">
               <span>В магазин</span>
             </p>
           </div>
@@ -32,11 +32,11 @@
           <div class="sale__card-thumb1"/>
           <div class="sale__card-container1">
             <p style="margin-top: 45px">
-              <span>Бесплатная</span><br/>
-              <span>ДОСТАВКА</span><br/>
-              <span>ПО РОССИИ</span><br/>
+              <span>Бесплатная<br/>
+                    ДОСТАВКА<br/>
+                    ПО РОССИИ</span><br/>
             </p>
-            <p style="text-decoration:underline; font-size:18px; margin-top: 12px" >
+            <p style="text-decoration:underline; font-size:18px; margin-top: 12px">
               <span>В магазин</span>
             </p>
           </div>
@@ -52,7 +52,7 @@ export default {
 }
 </script>
 
-<style scoped>
+<style lang="scss">
 .welcome__cards {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -77,19 +77,13 @@ export default {
   margin: 182px 0 0 calc((100% - 490px) * 0);
 }
 
-.tour__card-caption h5 {
+.tour__card-caption h3 {
   line-height: 1.1em;
-  font-size: 26px;
   letter-spacing: 0.05em;
   font-family: "'Times New Roman Italic'";
   font-style: italic;
 }
 
-.tour__card-caption h1 {
-  line-height: 1em;
-  font-size: 100px;
-  font-family: "PlayfairDisplay"
-}
 
 .sale__cards {
   margin: 90px 0;
@@ -127,10 +121,11 @@ export default {
   top: 21%;
   left: 21.5%;
 }
-.sale__card-container p{
-  line-height:1.3em;
-  text-align:center;
-  font-size:25px;
+
+.sale__card-container p {
+  line-height: 1.3em;
+  text-align: center;
+  font-size: 25px;
   font-family: "PlayfairDisplay"
 }
 
@@ -142,10 +137,11 @@ export default {
   top: 21%;
   left: 21.5%;
 }
-.sale__card-container1 p{
-  line-height:1.3em;
-  text-align:center;
-  font-size:25px;
+
+.sale__card-container1 p {
+  line-height: 1.3em;
+  text-align: center;
+  font-size: 25px;
   font-family: "PlayfairDisplay"
 }
 

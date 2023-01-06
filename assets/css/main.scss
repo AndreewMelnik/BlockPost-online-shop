@@ -7,6 +7,34 @@
     src: local("PlayfairDisplay"),
     url(./assets/fonts/PlayfairDisplay-Regular.ttf) format("truetype");
 }
+
+body {
+    font-family: "PlayfairDisplay";
+    font-size: 16px;
+}
+
+h1 {
+    font-size: 100px;
+    line-height: 1em;
+}
+
+h2 {
+    font-size: 60px;
+    line-height: 1.1em;
+}
+
+h3 {
+    font-size: 26px;
+}
+
+h4 {
+    font-size: 24px;
+}
+
+h5 {
+    font-size: 22px;
+}
+
 /*@font-face {*/
 /*    font-family: "TimesNewRomanItalic";*/
 /*    src: local("TimesNewRomanItalic"),*/
