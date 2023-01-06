@@ -1,6 +1,6 @@
 <template>
-  <home-welcome/>
-  <home-posters/>
+   <home-welcome/>
+   <home-posters/>
 </template>
 
 <script>
