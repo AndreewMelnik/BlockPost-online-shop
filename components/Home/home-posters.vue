@@ -2,17 +2,17 @@
   <div class="home-posters">
     <div class="wrapper__main">
       <div class="home__top-section">
-      <div class="home-caption">
-        <h2>СВЕЖИЕ</h2>
-        <h2>ПОСТЕРЬI</h2>
-        <h5>
-          Летняя коллекция
-        </h5>
-        <p>Это текст. Кликните дважды,<br/>
-          чтобы отредактировать и<br/>
-          рассказать посетителям о себе.</p>
-      </div>
-       <home-slider/>
+        <div class="home-caption">
+          <h2>СВЕЖИЕ</h2>
+          <h2>ПОСТЕРЬI</h2>
+          <h5>
+            Летняя коллекция
+          </h5>
+          <p>Это текст. Кликните дважды,<br/>
+            чтобы отредактировать и<br/>
+            рассказать посетителям о себе.</p>
+        </div>
+        <home-slider/>
       </div>
 
     </div>
@@ -41,7 +41,8 @@ export default {
     line-height: 1.7em;
   }
 }
-.home__top-section{
+
+.home__top-section {
   display: grid;
   grid-template-columns: 1fr 1fr;
 

@@ -1,5 +1,5 @@
 <template>
-<home-welcome/>
+  <home-welcome/>
   <home-posters/>
 </template>
 
