@@ -1,6 +1,5 @@
 <template>
   <home-welcome/>
-
   <home-posters/>
 
 </template>
