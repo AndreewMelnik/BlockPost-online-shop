@@ -9,14 +9,23 @@
     <div class="images">
       <div class="images-inner">
         <div class="image-slide">
-          <img class="image bg-yellow" src="../../public/img/zeeland.webp" alt="">
+          <img class="image" src="../../public/img/aloha-crop.webp" alt="">
         </div>
         <div class="image-slide">
-          <img class="image bg-blue" src="../../public/img/melon.webp" alt="">
+          <img class="image" src="../../public/img/palm-crop.webp" alt="">
         </div>
         <div class="image-slide">
-          <img class="image bg-red" src="../../public/img/palm.webp" alt="">
+          <img class="image" src="../../public/img/coco-crop.webp" alt="">
         </div>
+<!--        <div class="image-slide">-->
+<!--          <img class="image" src="../../public/img/ananas-crop.webp" alt="">-->
+<!--        </div>-->
+<!--        <div class="image-slide">-->
+<!--          <img class="image" src="../../public/img/vibes-crop.webp" alt="">-->
+<!--        </div>-->
+<!--        <div class="image-slide">-->
+<!--          <img class="image" src="../../public/img/jungle-crop.webp" alt="">-->
+<!--        </div>-->
       </div>
     </div>
   </div>
@@ -30,8 +39,9 @@ export default {
 
 <style scoped>
 .image {
-  width: 100%;
+  width: 468px;
   height: 495px;
+  object-fit:cover;
 }
 
 .radio {
@@ -44,21 +54,19 @@ export default {
   bottom: 0;
   left: 0;
   right: 0;
-  width: 100%;
+  width: 468px;
 }
 
 .images-inner {
   width: 500%;
-  transition: all 800ms cubic-bezier(0.770, 0.000, 0.175, 1.000);
-  transition-timing-function: cubic-bezier(0.770, 0.000, 0.175, 1.000);
+  transition: all 100ms cubic-bezier(1,0,0,1);;
+  transition-timing-function: cubic-bezier(1,0,0,1);;
 }
 
 .image-slide {
   width: 20%;
   float: left;
 }
-
-.image-slide,
 
 
   /* Move slides overflowed container */
@@ -67,11 +75,11 @@ export default {
 }
 
 #slide2:checked ~ .images .images-inner {
-  margin-left: -100%;
+  margin-left: -468px;
 }
 
 #slide3:checked ~ .images .images-inner {
-  margin-left: -200%;
+  margin-left: -468px;
 }
 
 
@@ -90,7 +98,7 @@ export default {
 
 
 .st-slider > #play1:checked ~ .images .images-inner {
-  animation: slide 12300ms infinite;
+  animation: slide 10300ms infinite cubic-bezier(0.79,0.14,0.15,0.86);
 }
 
 /* Calculate AUTOPLAY for SLIDES - END */
