@@ -17,15 +17,15 @@
         <div class="image-slide">
           <img class="image" src="../../public/img/coco-crop.webp" alt="">
         </div>
-<!--        <div class="image-slide">-->
-<!--          <img class="image" src="../../public/img/ananas-crop.webp" alt="">-->
-<!--        </div>-->
-<!--        <div class="image-slide">-->
-<!--          <img class="image" src="../../public/img/vibes-crop.webp" alt="">-->
-<!--        </div>-->
-<!--        <div class="image-slide">-->
-<!--          <img class="image" src="../../public/img/jungle-crop.webp" alt="">-->
-<!--        </div>-->
+        <!--        <div class="image-slide">-->
+        <!--          <img class="image" src="../../public/img/ananas-crop.webp" alt="">-->
+        <!--        </div>-->
+        <!--        <div class="image-slide">-->
+        <!--          <img class="image" src="../../public/img/vibes-crop.webp" alt="">-->
+        <!--        </div>-->
+        <!--        <div class="image-slide">-->
+        <!--          <img class="image" src="../../public/img/jungle-crop.webp" alt="">-->
+        <!--        </div>-->
       </div>
     </div>
   </div>
@@ -41,7 +41,7 @@ export default {
 .image {
   width: 468px;
   height: 495px;
-  object-fit:cover;
+  object-fit: cover;
 }
 
 .radio {
@@ -59,8 +59,8 @@ export default {
 
 .images-inner {
   width: 500%;
-  transition: all 100ms cubic-bezier(1,0,0,1);;
-  transition-timing-function: cubic-bezier(1,0,0,1);;
+  transition: all 100ms cubic-bezier(1, 0, 0, 1);;
+  transition-timing-function: cubic-bezier(1, 0, 0, 1);;
 }
 
 .image-slide {
@@ -69,7 +69,7 @@ export default {
 }
 
 
-  /* Move slides overflowed container */
+/* Move slides overflowed container */
 #slide1:checked ~ .images .images-inner {
   margin-left: 0;
 }
@@ -98,7 +98,7 @@ export default {
 
 
 .st-slider > #play1:checked ~ .images .images-inner {
-  animation: slide 10300ms infinite cubic-bezier(0.79,0.14,0.15,0.86);
+  animation: slide 10300ms infinite cubic-bezier(0.79, 0.14, 0.15, 0.86);
 }
 
 /* Calculate AUTOPLAY for SLIDES - END */
